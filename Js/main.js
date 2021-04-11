@@ -1,3 +1,8 @@
+//Preloader
+let spinnerWrapper = document.querySelector('.spinner-wrapper');
+window.addEventListener('load', function () {
+    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
 // Parallax.js
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);

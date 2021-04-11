@@ -19,7 +19,9 @@
 </head>
 <body>
     <!-- Preloader -->
-
+    <div class='spinner-wrapper'>
+        <div class="spinner"></div>
+    </div>
     <!-- Header -->
     <header class="l-header">
         <nav class="nav bd-grid">
@@ -33,7 +35,7 @@
                     <li class="nav_item"><a href="#about" class="nav_link">About Us</a></li>
                     <li class="nav_item"><a href="#feature" class="nav_link">Features</a></li>
                     <li class="nav_item"><a href="#AI" class="nav_link">AI Models</a></li>
-                    <li class="nav_item"><a href="#pricing" class="nav_link">Pricing</a></li>
+                    <!-- <li class="nav_item"><a href="#pricing" class="nav_link">Pricing</a></li> -->
                     <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
                 </ul>
             </div>
@@ -128,7 +130,7 @@
     <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
         <div class="contact_container bd-grid">
-            <form action="" method="POST" class="contact_form" onsubmit="reset(); alert('Thanks for contacting us! We will be in touch with you shortly.')";>
+            <form action="" class="contact_form" onsubmit="reset(); alert('Thanks for contacting us! We will be in touch with you shortly.')";>
                 <div class="contact_inputs">
                     <input type="text" placeholder="Name" class="contact_input" required>
                     <input type="email" placeholder="Email" class="contact_input" required >
